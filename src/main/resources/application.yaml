@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Airport-assessment
+  h2:
+    console.enabled: true
+  datasource:
+    jdbc-url: jdbc:h2:mem:Airport-assessment
+    username: sa
+    platform: h2
+    driver-Class-Name: org.h2.Driver
+  jpa:
+    show-sql: true
+server.port: 8080
